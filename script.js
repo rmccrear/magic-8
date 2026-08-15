@@ -16,7 +16,8 @@ function randomNumber(a, b){
 
 function makeFortune() {
   // ansSpace.textContent = "The future is murky.";
-  ansSpace.textContent = choices[randomNumber(0, 4)]
+  ansSpace.textContent = choices[randomNumber(0, 4)] + " Stay Golden!"
+  
 }
 
 askBtn.addEventListener("click", makeFortune);
